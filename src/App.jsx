@@ -49,7 +49,7 @@ import Services from "./Components/Products/Services";
 
 // all admin compnents
 const AdminPage = lazy(() => import("./pages/Admin/AdminPage"))
-const AddProducts = lazy(() => import("./Components/Admin-panel/features/AddProducts"))
+import AddProducts from "./Components/Admin-panel/features/AddProducts"
 const AddSubCategories = lazy(() => import("./Components/Admin-panel/features/AddSubCategories"))
 const EditProducts = lazy(() => import("./Components/Admin-panel/features/EditProducts"))
 const EditProductPage = lazy(() => import("./pages/Admin/EditProductPage"))

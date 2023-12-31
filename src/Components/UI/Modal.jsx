@@ -1,5 +1,5 @@
 
-import "./Modal.scss"
+import "./modal.scss"
 import PropTypes from "prop-types"
 import { Fragment, useEffect } from "react"
 import ReactDOM from "react-dom"
