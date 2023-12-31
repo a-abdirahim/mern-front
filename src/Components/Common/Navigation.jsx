@@ -6,7 +6,7 @@ import Button from "../UI/Button"
 
 
 import { HiOutlineBars3BottomRight } from "react-icons/hi2"
-import Logo from "../../../public/logo.svg"
+import Logo from "../../logo.svg"
 
 import "./Navigation.scss"
 import { useState } from "react"

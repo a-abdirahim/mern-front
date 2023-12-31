@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
 import { FaLinkedinIn } from "react-icons/fa6"
 import { Link, NavLink } from "react-router-dom"
-import Logo from "../../../public/logo.svg"
+import Logo from "../../logo.svg"
 
 
 const Footer = () => {

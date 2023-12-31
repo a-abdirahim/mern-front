@@ -3,7 +3,7 @@ import { Fragment } from "react";
 import ReactDOM from "react-dom";
 import { NavLink } from "react-router-dom"
 
-import Logo from "../../../public/logo.svg"
+import Logo from "../../logo.svg"
 import { GrFormClose } from "react-icons/gr"
 import { BsFacebook } from "react-icons/bs"
 import { FaInstagram } from "react-icons/fa6"
