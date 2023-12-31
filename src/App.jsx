@@ -29,17 +29,17 @@ const Faq = lazy(() => {
 
 // actions and loaders
 import { loader as productLoader } from "./pages/ProductsPage"
-import { action as ProductUpdate } from "./Components/Admin panel/features/SingleProductEdit"
-import { action as AddProductAction } from "./Components/Admin panel/features/AddProducts"
-import { action as AddCategoryAction } from "./Components/Admin panel/features/AddCategories"
-import { action as AddSubCategoryAction } from "./Components/Admin panel/features/AddSubCategories"
+import { action as ProductUpdate } from "./Components/Admin-panel/features/SingleProductEdit"
+import { action as AddProductAction } from "./Components/Admin-panel/features/AddProducts"
+import { action as AddCategoryAction } from "./Components/Admin-panel/features/AddCategories"
+import { action as AddSubCategoryAction } from "./Components/Admin-panel/features/AddSubCategories"
 
 // all product components
 import ProductDetails from "./Components/Products/SingleProducts/ProductDetails";
 import AllProducts from "./Components/Products/AllProducts";
 import AllSubcategories from "./Components/Products/AllSubcategories";
 import AllSubCategoryProducts from "./Components/Products/AllSubCategoryProducts";
-import AddCategories from "./Components/Admin panel/features/AddCategories";
+import AddCategories from "./Components/Admin-panel/features/AddCategories";
 import AllCategoryProducts from "./Components/Products/AllCategoryProucts";
 import AllHospitalProducts from "./Components/Products/AllHospitalProducts";
 import NoSubDetails from "./Components/Products/SingleProducts/NoSubDetails";
@@ -49,9 +49,9 @@ import Services from "./Components/Products/Services";
 
 // all admin compnents
 const AdminPage = lazy(() => import("./pages/Admin/AdminPage"))
-const AddProducts = lazy(() => import("./Components/Admin panel/features/AddProducts"))
-const AddSubCategories = lazy(() => import("./Components/Admin panel/features/AddSubCategories"))
-const EditProducts = lazy(() => import("./Components/Admin panel/features/EditProducts"))
+const AddProducts = lazy(() => import("./Components/Admin-panel/features/AddProducts"))
+const AddSubCategories = lazy(() => import("./Components/Admin-panel/features/AddSubCategories"))
+const EditProducts = lazy(() => import("./Components/Admin-panel/features/EditProducts"))
 const EditProductPage = lazy(() => import("./pages/Admin/EditProductPage"))
 
 import ScaleLoader from "react-spinners/ScaleLoader";

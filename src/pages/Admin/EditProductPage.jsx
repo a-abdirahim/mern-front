@@ -1,4 +1,4 @@
-import SingleProductEdit from '../../Components/Admin panel/features/SingleProductEdit'
+import SingleProductEdit from '../../Components/Admin-panel/features/SingleProductEdit'
 import { useRouteLoaderData } from 'react-router-dom'
 
 const EditProductPage = () => {

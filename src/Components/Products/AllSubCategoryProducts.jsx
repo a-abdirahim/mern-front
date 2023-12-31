@@ -104,7 +104,7 @@ function ProductLink({ product, selectedCategory, selectedSubCategory }) {
         >
             <div className='products-container'>
                 <div className="product-image">
-                    <img src={`/public/uploads/products/${product.productImage}`} alt="microscope" crossOrigin='anonymous' />
+                    <img src={`http://localhost:3000/public/uploads/products/${product.productImage}`} alt="microscope" crossOrigin='anonymous' />
                 </div>
                 <div className="product-details">
                     <p className="category">{selectedCategory.name}</p>

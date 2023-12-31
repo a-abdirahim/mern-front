@@ -67,7 +67,7 @@ const RelatedProduct = ({ products, categories, subCategories }) => {
                                     onClick={handleOnscroll}>
                                     <div className='related-product'>
                                         <div className="product-image">
-                                            <img src={`/public/uploads/products/${obj.productImage}`} alt="product image" />
+                                            <img src={`http://localhost:3000/public/uploads/products/${obj.productImage}`} alt="product image" />
                                         </div>
                                         <div className="related-details">
                                             <p className="category">{categoryName}</p>

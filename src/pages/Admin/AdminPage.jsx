@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
-import Sidebar from '../../Components/Admin panel/sidebar'
-import Nav from '../../Components/Admin panel/Nav'
+import Sidebar from '../../Components/Admin-panel/SideBar'
+import Nav from '../../Components/Admin-panel/Nav'
 import { Outlet } from 'react-router-dom'
-import "../../Components/Admin panel/Admin.scss"
+import "../../Components/Admin-panel/Admin.scss"
 const AdminPage = () => {
     return (
         <div className='admin-container'>
