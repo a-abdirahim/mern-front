@@ -83,7 +83,7 @@ const Trending = ({ products, categories, subCategories }) => {
                                     : `/allProducts/${categorySlugs[obj.category]}/${subCategorySlugs[obj.subCategory]}/${obj.slug}`
                             } className="product-wrapper">
                                 <div className="product-image">
-                                    <img src={`http://localhost:3000/public/uploads/products/${obj.productImage}`} alt="product" crossOrigin="anonymous" />
+                                    <img src={`https://mern-vitalmediquip-back.onrender.com/public/uploads/products/${obj.productImage}`} alt="product" crossOrigin="anonymous" />
                                 </div>
                                 <div className="product-description">
                                     <p className="category">{categoryName}</p>

@@ -39,7 +39,7 @@ const EditProducts = () => {
                 return (
                     <div className="product-container" key={product._id}>
                         <div className="product-details">
-                            <img src={`http://localhost:3000/public/uploads/products/${product.productImage}`} alt="product image" />
+                            <img src={`https://mern-vitalmediquip-back.onrender.com/public/uploads/products/${product.productImage}`} alt="product image" />
                             <div className="product-info">
                                 <p>{product.name}</p>
                                 <p>{parser(product.description)}</p>

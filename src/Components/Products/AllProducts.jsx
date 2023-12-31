@@ -88,7 +88,7 @@ const AllProducts = () => {
                                     className="all-products-container"
                                 >
                                     <div className="product-image">
-                                        <img src={`http://localhost:3000/public/uploads/products/${product.productImage}`} alt="microscope" crossOrigin="anonymous" />
+                                        <img src={`https://mern-vitalmediquip-back.onrender.com/public/uploads/products/${product.productImage}`} alt="microscope" crossOrigin="anonymous" />
                                     </div>
                                     <div className="product-detail">
                                         <p className="category">{categoryName}</p>
@@ -103,7 +103,7 @@ const AllProducts = () => {
                             filteredProduct.map(product => {
                                 const categoryName = categoryMap[product.category] || "unknown Category";
                                 const subCategoryName = subCategoryMap[product.subCategory] || "unknown Category";
-                                const imageUrl = `http://localhost:3000/public/uploads/products/${product.productImage}`;
+                                const imageUrl = `https://mern-vitalmediquip-back.onrender.com/public/uploads/products/${product.productImage}`;
 
                                 return (
                                     <NavLink

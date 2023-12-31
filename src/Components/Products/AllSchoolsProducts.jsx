@@ -77,7 +77,7 @@ const AllSchoolsProducts = () => {
                         >
                             <div className='products-container'>
                                 <div className="product-image">
-                                    <img src={`http://localhost:3000/public/uploads/products/${obj.productImage}`} alt="microscope" crossOrigin='anonymous' />
+                                    <img src={`https://mern-vitalmediquip-back.onrender.com/public/uploads/products/${obj.productImage}`} alt="microscope" crossOrigin='anonymous' />
                                 </div>
                                 <div className="product-details">
                                     <p className="category">{categoryName}</p>
